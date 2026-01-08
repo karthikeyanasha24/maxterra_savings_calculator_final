@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "project/dist"
+  functions = "netlify/functions"
+
+[dev]
+  command = "npm run dev --prefix project"
+  publish = "project/dist"
+  functions = "netlify/functions"
